@@ -1,7 +1,7 @@
 {
   "name": "homestay",
   "version": "0.1.0",
-  "homepage": "https://zenforks.github.io/kosdankontrakan/#",
+  "homepage": "https://arvn35.github.io/kosdankontrakan/#",
   "private": true,
   "dependencies": {
     "axios": "^1.2.2",
@@ -25,7 +25,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -- -d build"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
