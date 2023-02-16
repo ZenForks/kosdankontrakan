@@ -100,7 +100,7 @@ class Home extends Component {
             zoom={12}
             >
               {
-                this.state.allKosan.map(item => {
+                this.state.kosan.map(item => {
                   const lat = Number(item.lat);
                   const long = Number(item.long);
                   console.log(item)
